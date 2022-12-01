@@ -172,3 +172,4 @@ venv/
 wheels/
 xml_datasets
 day00/
+*/input.txt
