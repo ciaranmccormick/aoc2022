@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "aoc"
+version = "0.1.0"
+description = "Advent of Code Template"
+authors = ["Ciaran McCormick <ciaran@ciaranmccormick.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+aoc = "aoc.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+black = "^22.10.0"
+flake8 = "^6.0.0"
+httpx = "^0.23.1"
+ipdb = "^0.13.9"
+ipython = "^8.7.0"
+isort = "^5.10.1"
+mypy = "^0.991"
+pytest = "^7.2.0"
+python-decouple = "^3.6"
+typer = {version = "^0.7.0", extras = ["all"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
